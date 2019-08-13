@@ -1,0 +1,22 @@
+@media (min-width: 1025px) {
+  .header-nav li:hover, .footer-nav li:hover, .main-aside a:hover, .aside-news:hover .title {
+    color: #da7000;
+  }
+  .header-nav a[aria-current="page"]:hover::before {
+    top: -10px;
+  }
+  .header-nav a[aria-current="page"]:hover::after {
+    bottom: -10px;
+  }
+  a.news-card__content:hover::before {
+    height: 100% !important;
+  }
+  a.news-card__content:hover .wb-title {
+    color: #da7000;
+    transition-delay: .15s;
+  }
+  .slick-arrow:hover, .page-numbers a:hover {
+    color: #da7000;
+    border-color: #da7000;
+  }
+}
